@@ -1,0 +1,32 @@
+h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+.card-container {
+  text-align: justify;
+  color: #fff;
+  width: 18rem;
+  background-color: #1b1b1b;
+  padding: 2rem;
+  box-shadow: 1px 8px 34px -6px rgba(0, 0, 0, 0.75);
+  margin-bottom: 2rem;
+}
+.card-header h6 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.card-body a {
+  text-decoration: none;
+  color: #fff;
+}

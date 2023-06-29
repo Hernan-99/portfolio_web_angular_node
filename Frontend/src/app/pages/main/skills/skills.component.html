@@ -1,0 +1,16 @@
+<h3>Habilidades</h3>
+<section class="container">
+  <div class="front">
+    <article *ngFor="let skill of skills.slice(0, skills.length / 2)">
+      <i class="{{ skill.icono_skill }}"></i>
+      <p>{{ skill.nombre_skill }}</p>
+    </article>
+  </div>
+
+  <div class="back">
+    <article *ngFor="let skill of skills.slice(skills.length / 2)">
+      <i class="{{ skill.icono_skill }}"></i>
+      <p>{{ skill.nombre_skill }}</p>
+    </article>
+  </div>
+</section>

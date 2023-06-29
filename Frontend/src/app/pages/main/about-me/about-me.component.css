@@ -1,0 +1,70 @@
+h3 {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 5rem;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin-bottom: 7rem;
+}
+
+.container .container-descripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60vw;
+  text-align: justify;
+  color: #fff;
+}
+
+.container .container-descripcion h5 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.container .container-descripcion p {
+  font-size: 1.3rem;
+}
+
+.container .container-img {
+  width: 20rem;
+}
+
+.container .container-img img {
+  width: 100%;
+}
+
+.media ul {
+  width: 29%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+.media ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.media button {
+  padding: 0.8rem 4rem;
+  border: 1px solid #fff;
+  color: #fff;
+  background: none;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  font-size: 1rem;
+}
+
+.media button:hover {
+  color: #111;
+  background-color: #fff;
+}

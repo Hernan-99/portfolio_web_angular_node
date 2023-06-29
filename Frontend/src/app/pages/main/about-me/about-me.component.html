@@ -1,0 +1,24 @@
+<h3>Sobre mi</h3>
+<section class="container" *ngIf="perfil">
+  <article class="container-descripcion">
+    <div class="header">
+      <h5>Titulo</h5>
+    </div>
+    <div class="body">
+      <p>
+        {{ perfil.descripcion }}
+      </p>
+      <div class="media">
+        <ul>
+          <li><a href="">GitHub</a></li>
+          <li><a href="">Linkedin</a></li>
+        </ul>
+        <button>Descargar cv</button>
+      </div>
+    </div>
+  </article>
+
+  <article class="container-img">
+    <img src="../../../assets/img/img-min.jpg" alt="foto" />
+  </article>
+</section>

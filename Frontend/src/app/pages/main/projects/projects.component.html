@@ -1,0 +1,14 @@
+<h3>Proyectos</h3>
+<section class="container">
+  <div class="card-container" *ngFor="let project of projects">
+    <div class="card-header">
+      <h6>{{ project.nombre_proyecto }}</h6>
+      <p>
+        {{ project.descripcion_proyecto }}
+      </p>
+    </div>
+    <div class="card-body">
+      <a [href]="project.link_url" target="_blank">Visitar</a>
+    </div>
+  </div>
+</section>

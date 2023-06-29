@@ -1,0 +1,29 @@
+nav {
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1c1e;
+  z-index: 999; /* asegura que la navbar esté encima de otros elementos en la página */
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  margin-right: 1rem;
+}
+.menu li a,
+.contacto a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
