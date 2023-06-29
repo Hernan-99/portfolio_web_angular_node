@@ -22,9 +22,10 @@ app.use(express.json());
 
 app.use("/", indexRoutes); //digo, usa lo que haya en indexRoutes pero antes pone un /
 app.use("/api", proyectoRoute); //usa proyectoRoutes
-// app.use("/api", educacionRoute);
 app.use("/api", skillsRoute);
+// app.use("/api", educacionRoute);
 // app.use("/api", cursosRoute);
+
 app.use((req, res, next) => {
   //para mandar error si no se encuentra la ruta
   res.status(404).json({ message: "URL Not Found" });

@@ -89,20 +89,6 @@ h3 {
     width: 80%;
     margin: 2rem auto;
   }
-
-  .media ul {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .media ul li {
-    margin-bottom: 1rem;
-  }
-
-  .media button {
-    padding: 0.8rem 2rem;
-    font-size: 0.9rem;
-  }
 }
 @media (max-width: 768px) {
   h3 {
@@ -124,20 +110,6 @@ h3 {
     width: 80%;
     margin: 2rem auto;
   }
-
-  .media ul {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .media ul li {
-    margin-bottom: 1rem;
-  }
-
-  .media button {
-    padding: 0.8rem 2rem;
-    font-size: 0.9rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -146,6 +118,6 @@ h3 {
   }
 
   .media ul {
-    width: 100%;
+    width: 65%;
   }
 }
