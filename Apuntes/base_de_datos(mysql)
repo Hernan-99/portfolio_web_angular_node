@@ -1,0 +1,15 @@
+creamos una carpeta donde va a ir la base de datos y creamos un archivo sql.abrimos una terminal y ejecutamos el comando para acceder a mysql en el archivo sql,
+creamos una base de datos con: CREATE DATABASE IF NOT EXISTS nombredb;
+/ / IF NOT EXISTS es como decir,
+si este nombre no existe,
+entonces crea la base de datos.CREATE DATABASE IF NOT EXISTS nombredb;
+esto lo ejecutamos en la termina (fuera de vscode) use pruebadb;
+despues usamos este comando en consola para usar esa base de datos creamos una tabla con: CREATE TABLE employee (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(45) DEFAULT NULL,
+    salary INT(5) DEFAULT NULL,
+    PRIMARY KEY(id)
+);
+con show tables;
+podemos ver las tablas;
+con describe employee vemos lo que tiene la tabla employee;
