@@ -68,3 +68,84 @@ h3 {
   color: #111;
   background-color: #fff;
 }
+
+@media (max-width: 879px) {
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .container {
+    padding: 0.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .container .container-descripcion {
+    width: 100%;
+    align-items: center;
+  }
+
+  .container .container-img {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .media ul {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .media ul li {
+    margin-bottom: 1rem;
+  }
+
+  .media button {
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .container {
+    padding: 0.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .container .container-descripcion {
+    width: 100%;
+    align-items: center;
+  }
+
+  .container .container-img {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .media ul {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .media ul li {
+    margin-bottom: 1rem;
+  }
+
+  .media button {
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container .container-descripcion {
+    font-size: 1.1rem;
+  }
+
+  .media ul {
+    width: 100%;
+  }
+}

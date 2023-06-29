@@ -8,7 +8,6 @@ form {
   background-color: #1d1d1d;
   box-shadow: 1px 8px 34px -6px rgba(0, 0, 0, 0.75);
   border-radius: 0.3rem;
-
   padding: 2rem;
 }
 
@@ -50,4 +49,32 @@ h3 {
   justify-content: center;
   text-align: center;
   background-color: rgb(7, 7, 7);
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .w-50 {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .w-50 {
+    font-size: 1rem;
+  }
 }
