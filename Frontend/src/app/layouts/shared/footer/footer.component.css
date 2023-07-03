@@ -35,6 +35,7 @@ h3 {
   text-align: justify;
   margin-right: 2rem;
 }
+
 .content {
   display: flex;
 
@@ -77,4 +78,30 @@ h3 {
   .w-50 {
     font-size: 1rem;
   }
+}
+
+form .b-none,
+form .b-none:active {
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  border: 1px solid #65df61;
+  background-color: transparent;
+  cursor: pointer;
+  color: #e9e9e9;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: all 300ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: #65df61;
+  color: #242424;
+}
+
+.btn:active {
+  transform: scale(1.02);
 }
