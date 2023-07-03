@@ -38,4 +38,7 @@ header .titulo p {
   font-size: 3rem;
   color: #fff;
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 400;
 }

@@ -26,7 +26,14 @@ h3 {
   font-size: 1.5rem;
   margin: 0;
 }
+
+.card-body {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
 .card-body a {
   text-decoration: none;
   color: #fff;
+  text-decoration: underline;
 }

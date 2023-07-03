@@ -1,4 +1,4 @@
-<h3>Sobre mi</h3>
+<h3 id="aboutMe">Sobre mi</h3>
 <section class="container" *ngIf="perfil">
   <article class="container-descripcion">
     <div class="header">
@@ -10,8 +10,18 @@
       </p>
       <div class="media">
         <ul>
-          <li><a href="">GitHub</a></li>
-          <li><a href="">Linkedin</a></li>
+          <li>
+            <a [href]="'https://github.com/Hernan-99'" target="_blank"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              [href]="'https://www.linkedin.com/in/sanchez-hernan-gabriel/'"
+              target="_blank"
+              >Linkedin</a
+            >
+          </li>
         </ul>
         <button>Descargar cv</button>
       </div>
@@ -19,6 +29,6 @@
   </article>
 
   <article class="container-img">
-    <img src="../../../assets/img/img-min.jpg" alt="foto" />
+    <img [src]="perfil.img_perfil" alt="foto" />
   </article>
 </section>

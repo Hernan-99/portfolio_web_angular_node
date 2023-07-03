@@ -1,4 +1,4 @@
-<h3>Proyectos</h3>
+<h3 id="projects">Proyectos</h3>
 <section class="container">
   <div class="card-container" *ngFor="let project of projects">
     <div class="card-header">
@@ -8,7 +8,8 @@
       </p>
     </div>
     <div class="card-body">
-      <a [href]="project.link_url" target="_blank">Visitar</a>
+      <a [href]="project.link_url" target="_blank">Demo</a>
+      <a [href]="project.link_repo" target="_blank">Repo</a>
     </div>
   </div>
 </section>
