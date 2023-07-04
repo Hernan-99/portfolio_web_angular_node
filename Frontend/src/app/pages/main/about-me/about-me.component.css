@@ -49,9 +49,12 @@ h3 {
   list-style: none;
 }
 .media ul li a {
-  text-decoration: none;
   color: #fff;
   font-size: 1.1rem;
+  transition: all 300ms ease-in-out;
+}
+.media ul li a:hover {
+  color: #ffffff79;
 }
 
 .media button {
