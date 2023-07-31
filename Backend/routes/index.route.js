@@ -14,7 +14,7 @@ const router = Router();
 // router.get("/login", login)
 // router.get("/dashboard", dashboard)
 router.get("/", getAllPerfil);
-router.get("/perfil/:id", getPerfilById);
+router.get("/profile/:id", getPerfilById);
 router.post("/profile", postDatosPerfil);
 router.patch("/edit/profile/:id", patchDatosPerfil);
 router.delete("/del/profile/:id", deleteDatosPerfil);
