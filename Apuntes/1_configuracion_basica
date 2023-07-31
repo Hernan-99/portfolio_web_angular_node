@@ -1,0 +1,44 @@
+npm init -y para crear un proyecto con node. esto nos crea un json
+npm i express para instalar express
+npm i nodemon -D para instalar nodemon como dependecia de desarrollo
+npm i dotenv para las variables de entorno
+npm install --save mysql2 para poder hacer la conexion con mysql
+npm install cors 
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
+creamos carpetas:
+src
+  routes
+  controllers
+  
+app.js
+config.js
+index.js
+
+en el archivo index.js
+import express from "express"; //importamos express
+
+const app = express(); // iniciamos express
+app.listen(3000); // decimos que escuche la app en el puerto 3000
