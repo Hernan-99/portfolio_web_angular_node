@@ -1,4 +1,9 @@
 {
-  "build": [{ "src": "./index.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/" }]
+  "builds": [{ "src": "app.js", "use": "@vercel/node" }],
+  "routes": [
+    { "src": "/api/index/(.*)", "dest": "/routes/index.routes.js/$1" },
+    { "src": "/api/projects/(.*)", "dest": "/routes/projects.routes.js/$1" },
+    { "src": "/api/skills/(.*)", "dest": "/routes/skills.routes.js/$1" },
+    { "src": "/(.*)", "dest": "/app.js" }
+  ]
 }
