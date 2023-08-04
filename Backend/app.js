@@ -12,7 +12,7 @@ import proyectoRoute from "./routes/projects.route.js";
 const app = express(); //inicio express y lo almaceno en app
 app.use(
   cors({
-    origin: "https://hernan-sanchez-portfolio.netlify.app/",
+    origin: "*",
     methods: ["GET", "POST", "PATCH", "DELETE"],
   })
 );
